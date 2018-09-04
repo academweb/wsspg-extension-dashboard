@@ -1,0 +1,11 @@
+{
+    "name": "plugin/wsspg-extention-dashboard",
+    "type": "project",
+    "license": "GPL",
+    "require": {
+      "stripe/stripe-php": "^6.15"
+    },
+    "autoload": {
+      "psr-4": { "Inc\\": "./inc" }
+    }
+}
